@@ -11,8 +11,14 @@ Derived from the following resources:
 
 To run:
 
-`docker-compose -f docker-compose.yml -f docker-compose-prometheus.yml up -d`
+```
+export DATAFLOW_VERSION=2.9.2
+export SKIPPER_VERSION=2.8.2
+docker-compose -f docker-compose.yml -f docker-compose-prometheus.yml up -d`
+```
 
 To tear-down:
 
-`docker-compose -f docker-compose.yml -f docker-compose-prometheus.yml down -v`
+```
+docker-compose -f docker-compose.yml -f docker-compose-prometheus.yml down -v
+```
