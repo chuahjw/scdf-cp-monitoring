@@ -14,7 +14,7 @@ To run:
 ```
 export DATAFLOW_VERSION=2.9.2
 export SKIPPER_VERSION=2.8.2
-docker-compose -f docker-compose.yml -f docker-compose-prometheus.yml up -d`
+docker-compose -f docker-compose.yml -f docker-compose-prometheus.yml up -d
 ```
 
 To tear-down:
